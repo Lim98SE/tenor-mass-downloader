@@ -9,3 +9,6 @@ output will look like this
 
 and the file structure will look like this (a new folder is made for every query)
 ![image](https://github.com/Lim98SE/tenor-mass-downloader/assets/73658212/b6d2dfc9-dfab-4eb1-a473-01db4e3de64d)
+
+could take a while to download a significant amount of gifs and they could take up a lot of space
+![image](https://github.com/Lim98SE/tenor-mass-downloader/assets/73658212/4997da83-3a70-45b9-af71-a85e8925ef0c)
