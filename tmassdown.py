@@ -8,7 +8,7 @@ to_grab = int(input("How many to download? "))
 index = 0
 term = input("What do you want to download? ")
 
-batch_size = 50
+batch_size = 10
 
 try:
     os.mkdir(term)
@@ -23,7 +23,7 @@ for index in range(to_grab // batch_size):
     print("Batch", index + 1, "out of", to_grab // batch_size)
 
     r = requests.get(
-        "https://g.tenor.com/v2/search?q=%s&key=%s&limit=%s&pos=%s" % (term, api_key, to_grab, net)
+        "https://g.tenor.com/v2/search?q=%s&key=%s&limit=%s&pos=%s" % (term, api_key, batch_size, net)
         )
 
     if r.status_code == 200:
