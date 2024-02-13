@@ -2,7 +2,7 @@
 
 replace the api_key in the code with yours and it should work (V2 key)
 
-also your number will be rounded to the nearest 50 (change the constant 50 in the code to change that, but it's a max of 50)
+also your number will be rounded to the nearest 50 (change the "batch_size" variable in the code to change that, but it's a max of 50)
 
 output will look like this 
 ![image](https://github.com/Lim98SE/tenor-mass-downloader/assets/73658212/f98a04b9-11fa-4355-be47-5d1bc9a19fc2)
