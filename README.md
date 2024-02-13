@@ -1,5 +1,4 @@
-![image](https://github.com/Lim98SE/tenor-mass-downloader/assets/73658212/bc56cf4d-712f-413c-b828-3c3454d98fbc)# tenor-mass-downloader
-tenor mass downloader
+# tenor-mass-downloader
 
 replace the api_key in the code with yours and it should work (V2 key)
 
